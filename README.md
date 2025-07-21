@@ -1,73 +1,119 @@
-# Welcome to your Lovable project
+# XMRT Vote - Community Website Trust Scoring
 
-## Project info
+A decentralized platform where users can vote on website trustworthiness, submit new sites for review, and earn rewards for accurate community consensus. Built on blockchain technology to create a transparent web reputation system.
 
-**URL**: https://lovable.dev/projects/ecf904e8-68fc-4060-8648-cfd5df9d1822
+## 🚀 Features
 
-## How can I edit this code?
+### Core Voting System
+- **Trust Voting**: Vote "Trust" or "Don't Trust" on submitted websites
+- **Community Scores**: Real-time trust scores based on community voting
+- **Reputation Rewards**: Earn reputation points for accurate predictions
+- **Verification System**: Verified websites with enhanced trust indicators
 
-There are several ways of editing your application.
+### Website Management
+- **Submit Websites**: Add new websites for community review
+- **Category Filtering**: Browse by DeFi, NFT, Gaming, Educational, etc.
+- **Search & Filter**: Find websites by trending, newest, or top-rated
+- **Detailed Cards**: Rich information cards with voting history
 
-**Use Lovable**
+### Blockchain Integration
+- **Wallet Connection**: Connect Web3 wallets for secure voting
+- **Decentralized Storage**: Transparent voting records on blockchain
+- **Reward Distribution**: Automated reward system for accurate voters
+- **Network Status**: Live connection status to blockchain network
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ecf904e8-68fc-4060-8648-cfd5df9d1822) and start prompting.
+## 🎯 How It Works
 
-Changes made via Lovable will be committed automatically to this repo.
+1. **Browse Websites**: Explore community-submitted websites across various categories
+2. **Cast Your Vote**: Vote on whether you trust a website or not
+3. **Earn Rewards**: Get rewarded when your votes align with community consensus
+4. **Submit New Sites**: Add websites you think the community should evaluate
+5. **Build Reputation**: Accumulate reputation points for consistent, accurate voting
 
-**Use your preferred IDE**
+## 🛠 Technology Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend**: React 18 + TypeScript + Vite
+- **Styling**: Tailwind CSS + Custom Design System
+- **UI Components**: Shadcn/ui with enhanced variants
+- **Icons**: Lucide React
+- **Blockchain**: Web3 wallet integration ready
+- **Responsive**: Mobile-first design approach
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Getting Started
 
-Follow these steps:
+### Prerequisites
+- Node.js 18+ and npm
+- Web3 wallet (MetaMask, etc.) for blockchain features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+### Installation
+
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd xmrt-vote
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Development
+```bash
+# Start dev server with hot reload
+npm run dev
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Build production version
+npm run build
 
-**Use GitHub Codespaces**
+# Preview production build
+npm run preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🏗 Architecture
 
-## What technologies are used for this project?
+```
+src/
+├── components/
+│   ├── ui/              # Reusable UI components
+│   ├── VotingHeader.tsx # Main navigation header
+│   ├── WebsiteCard.tsx  # Website voting cards
+│   ├── SubmitWebsiteDialog.tsx # Website submission form
+│   └── FilterTabs.tsx   # Category and search filters
+├── pages/
+│   ├── Index.tsx        # Main entry point
+│   └── VotingDashboard.tsx # Primary voting interface
+├── assets/              # Static assets and images
+└── lib/                 # Utility functions and helpers
+```
 
-This project is built with:
+## 🎨 Design System
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Theme**: Cosmic/space-inspired with purple and teal accents
+- **Components**: Glass morphism effects with glow animations
+- **Responsive**: Breakpoints for mobile, tablet, and desktop
+- **Accessibility**: WCAG compliant with proper contrast ratios
+- **Animations**: Smooth transitions and hover effects
 
-## How can I deploy this project?
+## 🔗 Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/ecf904e8-68fc-4060-8648-cfd5df9d1822) and click on Share -> Publish.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 License
 
-Yes, you can!
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🙋 Support
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For support, questions, or feature requests, please open an issue on GitHub or contact the XMRT team.
+
+---
+
+**XMRT Vote** - Building trust in the decentralized web, one vote at a time. 🚀
