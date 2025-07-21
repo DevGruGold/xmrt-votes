@@ -1,4 +1,4 @@
-# XMRT Vote - Community Website Trust Scoring
+# XMRT Votes - Community Website Trust Scoring
 
 A decentralized platform where users can vote on website trustworthiness, submit new sites for review, and earn rewards for accurate community consensus. Built on blockchain technology to create a transparent web reputation system.
 
@@ -52,7 +52,7 @@ A decentralized platform where users can vote on website trustworthiness, submit
 git clone <YOUR_GIT_URL>
 
 # Navigate to project directory
-cd xmrt-vote
+cd xmrt-votes
 
 # Install dependencies
 npm install
@@ -116,4 +116,4 @@ For support, questions, or feature requests, please open an issue on GitHub or c
 
 ---
 
-**XMRT Vote** - Building trust in the decentralized web, one vote at a time. 🚀
+**XMRT Votes** - Building trust in the decentralized web, one vote at a time. 🚀

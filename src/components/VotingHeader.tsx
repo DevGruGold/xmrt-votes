@@ -14,7 +14,7 @@ export default function VotingHeader() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                  Moonbeam VoteSite
+                  XMRT Votes
                 </h1>
                 <p className="text-sm text-muted-foreground">
                   Community-driven website trust scoring
